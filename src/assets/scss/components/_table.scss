@@ -6,6 +6,17 @@
 
 /* Table */
 
+	.image {
+		width: 10rem !important;
+		height: 10rem !important;
+	}
+
+	.imgs {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 9rem;
+	}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
