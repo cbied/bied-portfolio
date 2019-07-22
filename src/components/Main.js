@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import travel from '../assets/pics/travelpic.png'
+import travel from './travelpic.PNG'
 import jnjLogin from './jnjLogin.png'
 import jnjClientSide from './jnjClientSide.png'
 import jnjClientSide2 from './jnjClientSide2.png'
