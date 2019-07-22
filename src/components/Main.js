@@ -9,6 +9,7 @@ import jnjClientSide3 from '../images/jnjClientSide3.png'
 import jnjPayment from '../images/jnjPayment.png'
 import jnjAdminSide from '../images/jnjAdminSide.png'
 
+
 class Main extends React.Component {
     constructor(props) {
       super(props);
