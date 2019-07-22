@@ -2,13 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import travel from '../assets/pics/travelpic.png'
-import eye from '../assets/pics/eye.svg'
-import jnjLogin from '../assets/pics/jnj/jnjLogin.png'
-import jnjClientSide from '../assets/pics/jnj/jnjClientSide.png'
-import jnjClientSide2 from '../assets/pics/jnj/jnjClientSide2.png'
-import jnjClientSide3 from '../assets/pics/jnj/jnjClientSide3.png'
-import jnjPayment from '../assets/pics/jnj/jnjPayment.png'
-import jnjAdminSide from '../assets/pics/jnj/jnjAdminSide.png'
+import jnjLogin from '../images/jnjLogin.png'
+import jnjClientSide from '../images/jnjClientSide.png'
+import jnjClientSide2 from '../images/jnjClientSide2.png'
+import jnjClientSide3 from '../images/jnjClientSide3.png'
+import jnjPayment from '../images/jnjPayment.png'
+import jnjAdminSide from '../images/jnjAdminSide.png'
 
 class Main extends React.Component {
     constructor(props) {
@@ -54,9 +53,9 @@ class Main extends React.Component {
           <ModalBody style={{ background: 'rgba(0,0,0,.5)'}}>
               <h2 style={{textAlign:'center'}}></h2>
               <div className='imgs'>
-              <span className="image main"><img src={jnjLogin} alt="" /></span>
-              <span className="image main"><img src={jnjClientSide} alt="" /></span>
-              <span className="image main"><img src={jnjClientSide2} alt="" /></span>
+              <span className="image main"><img src={jnjLogin} alt="jnjLogin" /></span>
+              <span className="image main"><img src={jnjClientSide} alt="jnjClientSide" /></span>
+              <span className="image main"><img src={jnjClientSide2} alt="jnjClientSide2" /></span>
               </div>
               <h4 style={{ textAlign:'center'}}>A client relationship management web app I made for an equine massage company. </h4>
               <br />
@@ -77,9 +76,9 @@ class Main extends React.Component {
               </a>
               </div>
               <div className='imgs'>
-              <span className="image main"><img src={jnjClientSide3} alt="" /></span>
-              <span className="image main"><img src={jnjPayment} alt="" /></span>
-              <span className="image main"><img src={jnjAdminSide} alt="" /></span>
+              <span className="image main"><img src={jnjClientSide3} alt="jnjClientSide3" /></span>
+              <span className="image main"><img src={jnjPayment} alt="jnjPayment" /></span>
+              <span className="image main"><img src={jnjAdminSide} alt="jnjAdminSide" /></span>
               </div>
           </ModalBody>
           <ModalFooter style={{ background: 'rgba(0,0,0,.5)'}}>
