@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import travel from '../assets/pics/travelpic.png'
 import jnjLogin from './jnjLogin.png'
-import jnjClientSide from '../images/jnjClientSide.png'
-import jnjClientSide2 from '../images/jnjClientSide2.png'
-import jnjClientSide3 from '../images/jnjClientSide3.png'
-import jnjPayment from '../images/jnjPayment.png'
-import jnjAdminSide from '../images/jnjAdminSide.png'
+import jnjClientSide from './jnjClientSide.png'
+import jnjClientSide2 from './jnjClientSide2.png'
+import jnjClientSide3 from './jnjClientSide3.png'
+import jnjPayment from './jnjPayment.png'
+import jnjAdminSide from './jnjAdminSide.png'
 
 
 class Main extends React.Component {
