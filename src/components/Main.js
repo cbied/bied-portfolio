@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import travel from '../assets/pics/travelpic.png'
-// import jnjLogin from '../images/jnjLogin.png'
+import jnjLogin from './jnjLogin.png'
 import jnjClientSide from '../images/jnjClientSide.png'
 import jnjClientSide2 from '../images/jnjClientSide2.png'
 import jnjClientSide3 from '../images/jnjClientSide3.png'
@@ -48,14 +48,14 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
 
-          <Button onClick={this.toggle} className='workOne'><img src={require('../images/jnjLogin.png')} alt=""/></Button>
+          <Button onClick={this.toggle} className='workOne'><img src={jnjLogin} alt=""/></Button>
 
         <Modal isOpen={this.state.modal} toggle={this.toggle} className='modal-lg'>
           <ModalHeader style={{ background: 'rgba(0,0,0,.5)'}}>JnJ Equine Message</ModalHeader>
           <ModalBody style={{ background: 'rgba(0,0,0,.5)'}}>
               <h2 style={{textAlign:'center'}}></h2>
               <div className='imgs'>
-              <span className="image main"><img src={require('../images/jnjLogin.png')} alt="jnjLogin" /></span>
+              <span className="image main"><img src={jnjLogin} alt="jnjLogin" /></span>
               <span className="image main"><img src={jnjClientSide} alt="jnjClientSide" /></span>
               <span className="image main"><img src={jnjClientSide2} alt="jnjClientSide2" /></span>
               </div>
