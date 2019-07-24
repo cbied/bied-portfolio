@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/bied-portfolio",
   siteMetadata: {
     title: "Bied's Web Dev",
     author: "Hunter Chang",
